@@ -1,0 +1,12 @@
+Hi.
+
+This is an implementation of the ROAM (https://graphics.llnl.gov/ROAM/) algorithm adapted for rendering spherical (read: planetary) objects. This will also procedurally generate said planet.
+
+This was inspired by Sean O'Neil's articles in GamaSutra, and uses some of his (open sourced/BSD licensed) code.
+Part 1: http://www.gamasutra.com/view/feature/131507/a_realtime_procedural_universe_.php
+Part 2: http://www.gamasutra.com/view/feature/131451/a_realtime_procedural_universe_.php
+Part 3: http://www.gamasutra.com/view/feature/131393/a_realtime_procedural_universe_.php
+
+This depends on Blackberry's GamePlay engine, which can be pulled from https://github.com/blackberry/gameplay/, the project descriptor files here expect the gameplay engine to be located in ../../../, so you may have to modify them.
+
+This should work for all posix platforms supported by gameplay (not windows), but it has only been tested in OSX.
